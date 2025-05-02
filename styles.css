@@ -1,0 +1,39 @@
+
+  @font-face {
+    font-family: 'Century Schoolbook';
+    src: url('SCHLBKB.TFF') format('truetype');
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 65px;
+    font-size: 2rem; /* chat.gpt rec this */
+    line-height: 1.6;
+    font-family: 'Century Schoolbook';
+    src: url('SCHLBKB.TFF') format('truetype');
+  }
+  
+  img {
+    width: 1000px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    max-width: 1800px;
+  }
+  h2 {
+    position: absolute;
+    z-index: 10;
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+    top: 50%; /* Adjust this value to move the text closer or farther from the tree */
+    left: 65%; /* Move the text to the right side of the tree (adjust as needed) */
+    transform: translateX(0); /* No need to center horizontally, remove the transform */
+  }
