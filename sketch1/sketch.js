@@ -65,7 +65,7 @@ function draw() {
   // Redirect to sketch2/index.html when all apples are done falling
   if (allFallen) {
     setTimeout(() => {
-      window.location.href = 'https://williamnevans.github.io/givingtree/';
+      window.location.href = 'https://williamnevans.github.io/givingtree/sketch2/index.html';
     }, 1000); // 1-second delay for a smoother transition
   }
 }
