@@ -58,7 +58,7 @@ function draw() {
       if (!hasRedirected) {
         hasRedirected = true;
         setTimeout(() => {
-          window.location.href = "../forth.html";
+          window.location.href = "https://williamnevans.github.io/givingtree/forth.html";
         }, 500); // optional half-second delay
       }
     }

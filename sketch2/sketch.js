@@ -101,7 +101,7 @@ function draw() {
 
   let allOffScreen = leafs.every(leaf => leaf.y < 0);
   if (allOffScreen) {
-    window.location.href = '../sketch3/index.html';
+    window.location.href = 'https://williamnevans.github.io/givingtree/sketch3/index.html';
   }
 }
 
